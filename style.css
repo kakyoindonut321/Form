@@ -47,7 +47,7 @@ html {
 }
 
 
-/* quote */
+/* quote and background*/
 
 #background {
     padding: 15%;
@@ -57,8 +57,12 @@ html {
 /* sign in container */
 
 .container {
+    margin-top: 10%;
+    padding-top: 30px;
+    padding-bottom: 40px;
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 40px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .sign-container {
@@ -83,18 +87,31 @@ html {
     margin: 5px;
 }
 
+#fname,
+#lname,
 #password,
 #password2,
 #email,
-#name,
+#telepon,
 #umur,
 #signup {
     border: 2px solid lightgrey;
     border-radius: 5px;
+    margin: 5px;
+}
+
+label {
+    margin: 5px;
 }
 
 .itemform,
 .itemform:before,
 .itemform:after {
     box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    #background {
+        padding: 40%;
+    }
 }
