@@ -46,12 +46,21 @@ html {
 }
 
 
+/* quote */
+
+#background {
+    padding: 15%;
+}
+
+
 /* sign in container */
 
 .container {
     background-color: white;
+    padding: 40px;
 }
 
-#background {
-    padding: 15%;
+.sign-container {
+    border: 2px solid;
+    margin-right: 50%;
 }
