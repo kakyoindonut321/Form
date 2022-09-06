@@ -130,3 +130,9 @@ label {
     background-color: rgba(230, 140, 0);
     border: 4px solid rgba(230, 140, 0);
 }
+
+@media (max-width: 600px) {
+    .itemform {
+        flex-basis: 50%;
+    }
+}
