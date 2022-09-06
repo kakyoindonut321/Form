@@ -1,0 +1,57 @@
+body {
+    background-color: lightyellow;
+    background-image: url("image/albequerque.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 130%;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* navbar */
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+.navbsign {
+    margin-right: 20px
+}
+
+#navb {
+    float: left;
+}
+
+#navb a {
+    font-size: 24px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navb a:hover {
+    /* opacity: 0.5; */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* sign in container */
+
+.container {
+    background-color: white;
+}
+
+#background {
+    padding: 15%;
+}
