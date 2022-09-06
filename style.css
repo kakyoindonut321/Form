@@ -2,8 +2,8 @@ body {
     background-color: lightyellow;
     background-image: url("image/albequerque.jpg");
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 100% 130%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 body,
@@ -16,6 +16,7 @@ html {
 /* navbar */
 
 #navbar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -56,11 +57,44 @@ html {
 /* sign in container */
 
 .container {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 40px;
 }
 
 .sign-container {
-    border: 2px solid;
-    margin-right: 50%;
+    background-color: white;
+    box-shadow: 0px 5px 4px #999999;
+    /* border: 2px solid; */
+    padding: 5px;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrap {
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+}
+
+.itemform {
+    flex-basis: 25%;
+    margin: 5px;
+}
+
+#password,
+#password2,
+#email,
+#name,
+#umur,
+#signup {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+.itemform,
+.itemform:before,
+.itemform:after {
+    box-sizing: border-box;
 }
